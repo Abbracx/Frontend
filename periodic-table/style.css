@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(9, 50px);
+    grid-gap: 3px;
+    grid-template-areas: 
+    "  g g g g g g g g g g g g g g g g g g"
+    "p b b b b b b b b b b b b b b b b b b"
+    "p b b b b b b b b b b b b b b b b b b"
+    "p b b b b b b b b b b b b b b b b b b"
+    "p b b b b b b b b b b b b b b b b b b"
+    "p b b b b b b b b b b b b b b b b b b"
+    "p b b b b b b b b b b b b b b b b b b"
+    "p b b b b b b b b b b b b b b b b b b";
+}
+
+.group{
+    background-color: blueviolet;
+    grid-area: g;
+}
+
+.period{
+    background-color: darkorange;
+    grid-area: p;
+}
+
+.box{
+    background-color: darkslategray;
+    grid-area: b;
+}
